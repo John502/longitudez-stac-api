@@ -1,24 +1,3 @@
-# longitudez-stac-api
-
-SpatioTemporal Assest Catalog FastAPI
-
-[https://github.com/stac-utils/stac-fastapi](https://github.com/stac-utils/stac-fastapi)
-
-[https://github.com/stac-utils/stac-fastapi-elasticsearch](https://github.com/stac-utils/stac-fastapi-elasticsearch)
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-
-Python.h: No such file or directory
-
-```bash
-sudo apt-get install python3-dev  # for python3.x installs
-```
-
 # STAC FastAPI Elasticsearch
 
 Elasticsearch backend for stac-fastapi. 
@@ -195,6 +174,3 @@ curl -X "POST" "http://localhost:8080/collections" \
 
 Voila! You have a copy of the collection now that has a resource URI (`/collections/my-collection-copy`) and can be
 correctly queried by collection name.
-
-
-
